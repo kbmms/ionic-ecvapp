@@ -1,1 +1,34 @@
 /* Empty. Add your own CSS if you like */
+.pane, .view{
+  background-color: #272323;
+}
+
+/*Topo - Titulo e Cor da barra*/
+.bar.bar-stable {
+    border-color: #715A5A;
+    background-color: #DD5757;
+    background-image: linear-gradient(0deg, #B2B2B2, #B2B2B2 50%, transparent 50%);
+    color: #000;
+}
+.bar.bar-stable .title {
+    color: #F6F6F6;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+/*Texto e Título*/
+.item p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #B4B4B4;
+  font-weight: bold;
+}
+.item h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.item {
+border-color: #132532;
+background-color: #283A3E;
+}
